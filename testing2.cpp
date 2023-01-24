@@ -1,7 +1,13 @@
 #include <iostream>
 using std::cout;
+using std::string;
+using std::endl;
+
+void saySomething(string thing) {
+    cout << thing << endl;
+}
 
 int main()
 {
-    cout << "Hello World!\n";
+    saySomething("Hello world");
 }
